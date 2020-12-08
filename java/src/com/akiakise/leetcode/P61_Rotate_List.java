@@ -2,6 +2,8 @@ package com.akiakise.leetcode;
 
 public class P61_Rotate_List {
     /*
+    https://leetcode.com/problems/rotate-list/
+
     假设链表为 1->2->3->4->5，总数 n=5
              ⬆           ⬇
              ------------
