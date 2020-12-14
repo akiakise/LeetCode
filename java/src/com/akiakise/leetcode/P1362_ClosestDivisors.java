@@ -2,10 +2,11 @@ package com.akiakise.leetcode;
 
 import java.util.Arrays;
 
+/**
+ * https://leetcode.com/problems/closest-divisors/
+ */
 public class P1362_ClosestDivisors {
     /*
-    https://leetcode.com/problems/closest-divisors/
-
     给定一个n，我们先求出 t=sqrt(n+2)，假设返回结果数组为 [a, b]，
     则这个关系一定成立： a <= t <= b。
 
