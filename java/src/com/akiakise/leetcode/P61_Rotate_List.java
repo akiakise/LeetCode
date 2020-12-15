@@ -52,29 +52,28 @@ public class P61_Rotate_List {
         ListNode res_head = p.rotateRight(head, 2);
         System.out.println(res_head.val);
     }
-}
 
+    static class ListNode {
+        int val;
+        ListNode next;
 
-class ListNode {
-    int val;
-    ListNode next;
+        ListNode() {
+        }
 
-    ListNode() {
-    }
+        ListNode(int val) {
+            this.val = val;
+        }
 
-    ListNode(int val) {
-        this.val = val;
-    }
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
 
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-
-    @Override
-    public String toString() {
-        return "ListNode{" +
-                "val=" + val +
-                '}';
+        @Override
+        public String toString() {
+            return "ListNode{" +
+                    "val=" + val +
+                    '}';
+        }
     }
 }
